@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ViewPrescription"
+            android:label="@string/title_activity_view_prescription"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="saapi.design.com.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".viewMessage"
+            android:label="@string/title_activity_view_message"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="saapi.design.com.myapplication.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
