@@ -32,6 +32,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="saapi.design.com.myapplication.MainActivity" />
         </activity>
+        <activity
+            android:name=".activity_login"
+            android:label="@string/title_activity_activity_login" >
+        </activity>
     </application>
 
 </manifest>
