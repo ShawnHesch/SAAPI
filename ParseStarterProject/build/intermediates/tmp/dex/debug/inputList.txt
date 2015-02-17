@@ -1,4 +1,0 @@
-D:\Github\SAAPI\ParseStarterProject\build\intermediates\classes\debug
-D:\Github\SAAPI\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-bb5184603719e4eaa69bcba1a981fd9311917337.jar
-D:\Github\SAAPI\ParseStarterProject\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.8.2-a74594619cceb3e396909b2f0314a6f0d2b66cf8.jar
-D:\Github\SAAPI\ParseStarterProject\build\intermediates\pre-dexed\debug\Parse-1.8.2-d87292eade3af799413a60d6dec6f6d84e4540ed.jar
