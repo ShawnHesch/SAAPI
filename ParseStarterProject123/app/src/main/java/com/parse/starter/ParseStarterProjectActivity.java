@@ -46,6 +46,8 @@ public class ParseStarterProjectActivity extends Activity {
     }
 
     public void successful_login() {
+        //TODO: Get patient info here and send the object to the next intent, reduce lag in getting info
+
         String username = ((EditText) findViewById(R.id.username)).getText().toString();
 
         Intent myIntent = new Intent(this, HomePageActivity.class);
