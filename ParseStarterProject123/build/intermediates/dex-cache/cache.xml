@@ -2,25 +2,25 @@
 <items version="2" >
 
     <item
-        jar="D:\Documents\ParseStarterProject\app\libs\Parse-1.8.2.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="c2cb0bfe37cbefd855b6faa3c9a5be833aba7300">
-        <dex dex="D:\Documents\ParseStarterProject\app\build\intermediates\pre-dexed\debug\Parse-1.8.2-9453fd2a76729846e72a1668cd4999a4ec6a88dc.jar" />
-    </item>
-    <item
-        jar="C:\Users\Shawn\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="129874135e6081269ace2312092031558865de12">
-        <dex dex="D:\Documents\ParseStarterProject\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-180e5d768a22d0dbc04670ba6e7dfb05a5db66c3.jar" />
-    </item>
-    <item
-        jar="D:\Documents\ParseStarterProject\app\libs\ParseCrashReporting-1.8.2.jar"
+        jar="D:\Github\SAAPI\ParseStarterProject123\app\libs\ParseCrashReporting-1.8.2.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="ccf9e90414e7bb2cf09f4d7c77c42f70c690e118">
-        <dex dex="D:\Documents\ParseStarterProject\app\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.8.2-fa6c6a1d0f043a46d452d5eb670576875dcc4b9a.jar" />
+        <dex dex="D:\Github\SAAPI\ParseStarterProject123\app\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.8.2-695c41d27506c35115661cf68451158cc7467c36.jar" />
+    </item>
+    <item
+        jar="C:\Users\Aostia\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="D:\Github\SAAPI\ParseStarterProject123\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-bb5184603719e4eaa69bcba1a981fd9311917337.jar" />
+    </item>
+    <item
+        jar="D:\Github\SAAPI\ParseStarterProject123\app\libs\Parse-1.8.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c2cb0bfe37cbefd855b6faa3c9a5be833aba7300">
+        <dex dex="D:\Github\SAAPI\ParseStarterProject123\app\build\intermediates\pre-dexed\debug\Parse-1.8.2-b1226b55e6e88f284ff66aafbddc41506a3548b0.jar" />
     </item>
 
 </items>
