@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -26,6 +27,7 @@ import javax.crypto.EncryptedPrivateKeyInfo;
 
 
 public class HomePageActivity extends Activity {
+    private String username;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +35,7 @@ public class HomePageActivity extends Activity {
         setContentView(R.layout.activity_home_page);
 
         Intent myIntent = getIntent(); // gets the previously created intent
-        String username = myIntent.getStringExtra("username");
+        this.username = myIntent.getStringExtra("username");
 
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Subjects");
         query.whereEqualTo("username", username);
@@ -115,5 +117,12 @@ public class HomePageActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void openMessages(View view) {
+
+        Intent myIntent = new Intent(this, MessageActivity.class);
+        myIntent.putExtra("username", username);
+        startActivity(myIntent);
     }
 }
