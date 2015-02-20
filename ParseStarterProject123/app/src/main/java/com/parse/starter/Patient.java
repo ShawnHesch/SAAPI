@@ -1,5 +1,7 @@
 package com.parse.starter;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -58,6 +60,17 @@ public class Patient {//Patient Object
         this.age = age;
     }
 
+    public Patient(String strpatient){
+        String[] parts = strpatient.split("\n");
+        this.name = parts[0];
+        this.gender = parts[1];
+        DateFormat df = new SimpleDateFormat("dow mon dd hh:mm:ss zzz yyyy");
+        try {
+            this.birth = df.parse(parts[2]);
+        }catch(Exception e){}
+        this.age = Integer.parseInt(parts[3]);
+    }
+
     public Patient(Patient p){
         this.name = p.name;
         this.gender = p.gender;
@@ -66,6 +79,6 @@ public class Patient {//Patient Object
     }
 
     public String toString(){
-        return name + gender + birth.toString() + age;
+        return name + "\n" + gender + "\n" + birth.toString() + "\n" + age+ "\n" ;
     }
 }

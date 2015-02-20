@@ -32,7 +32,8 @@ public class EncryptedFileIO {
             byte[] cipher = new byte[filein.available()];
 
             filein.read(cipher);
-            String plain = dencryptString(cipher).toString();
+            String plain = new String(dencryptString(cipher));
+            patient = new Patient(plain);
 
         }catch(Exception e){//No file to open, create file
             try{
