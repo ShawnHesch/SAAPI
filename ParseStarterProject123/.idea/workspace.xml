@@ -18,185 +18,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa4ea9dc-883f-4c2a-9ec4-0a3adf10a8be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/parse/starter/EncryptedFileIO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/parse/starter/MessageActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/parse/starter/Patient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_message.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_message.xml" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject123\app\app.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\.classpath" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\.project" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\ParseStarterProject.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\build\generated\source\buildConfig\debug\com\parse\starter\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\build\generated\source\buildConfig\test\debug\com\parse\starter\test\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\build\generated\source\r\debug\com\parse\starter\R.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\build\intermediates\tmp\dex\debug\inputList.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\allclasses-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\allclasses-noframe.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ConfigCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\CountCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\DeleteCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\FindCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\FunctionCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\GetCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\GetDataCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\LocationCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\LogInCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\Parse.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseACL.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseAnalytics.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseAnonymousUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseClassName.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseCloud.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseConfig.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseException.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseFacebookUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseFile.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseGeoPoint.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseImageView.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseInstallation.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseObject.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParsePush.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParsePushBroadcastReceiver.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseQuery.CachePolicy.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseQuery.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseQueryAdapter.OnQueryLoadListener.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseQueryAdapter.QueryFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseQueryAdapter.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseRelation.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseRole.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseTwitterUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ParseUser.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\ProgressCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\PushService.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\RefreshCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\RequestPasswordResetCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\SaveCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\SendCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\SignUpCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ConfigCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\CountCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\DeleteCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\FindCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\FunctionCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\GetCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\GetDataCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\LocationCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\LogInCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\Parse.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseACL.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseAnalytics.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseAnonymousUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseClassName.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseCloud.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseConfig.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseException.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseFacebookUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseFile.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseGeoPoint.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseImageView.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseInstallation.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseObject.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParsePush.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParsePushBroadcastReceiver.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseQuery.CachePolicy.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseQuery.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseQueryAdapter.OnQueryLoadListener.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseQueryAdapter.QueryFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseQueryAdapter.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseRelation.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseRole.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseTwitterUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ParseUser.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\ProgressCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\PushService.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\RefreshCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\RequestPasswordResetCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\SaveCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\SendCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\class-use\SignUpCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\com\parse\package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\constant-values.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\deprecated-list.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\help-doc.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\index-all.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\overview-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\package-list" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\resources\background.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\resources\tab.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\resources\titlebar.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\resources\titlebar_end.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\serialized-form.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2-javadoc\stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\Parse-1.8.2.jar.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\allclasses-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\allclasses-noframe.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\com\parse\ParseCrashReporting.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\com\parse\class-use\ParseCrashReporting.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\com\parse\package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\com\parse\package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\com\parse\package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\com\parse\package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\constant-values.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\deprecated-list.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\help-doc.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\index-all.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\overview-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\package-list" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\resources\background.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\resources\tab.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\resources\titlebar.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\resources\titlebar_end.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2-javadoc\stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\ParseCrashReporting-1.8.2.jar.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\bolts-android-1.1.4-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\bolts-android-1.1.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\libs\bolts-android-1.1.4.jar.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\project.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\LHSC-logo1.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\drawable-hdpi\female_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\drawable-hdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\drawable-hdpi\male_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\drawable-ldpi\female_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\drawable-ldpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\drawable-ldpi\male_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\drawable-mdpi\female_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\drawable-mdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\drawable-mdpi\male_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\drawable-xhdpi\female_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\drawable-xhdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\drawable-xhdpi\male_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\layout\activity_home_page.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\layout\login_page.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\layout\main.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\menu\menu_home_page.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\values\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\res\values\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\src\com\parse\starter\HomePageActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\src\com\parse\starter\ParseApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\src\com\parse\starter\ParseStarterProjectActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Github\SAAPI\ParseStarterProject\third_party_licenses.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/parse/starter/HomePageActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/parse/starter/HomePageActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/parse/starter/ParseStarterProjectActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/parse/starter/ParseStarterProjectActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/parse/starter/EncryptedFileIO.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/parse/starter/EncryptedFileIO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ParseStarterProject.iws" />
@@ -223,41 +45,28 @@
       <file leaf-file-name="HomePageActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/HomePageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1114" max-vertical-offset="1717">
-              <caret line="101" column="20" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="1853">
+              <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/MessageActivity.java">
+      <file leaf-file-name="ParseStarterProjectActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/ParseStarterProjectActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="850">
+              <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_message.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_message.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EncryptedFileIO.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="EncryptedFileIO.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/EncryptedFileIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.2813067" vertical-offset="202" max-vertical-offset="1258">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -266,8 +75,8 @@
       <file leaf-file-name="Patient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/Patient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1309">
+              <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -1218,7 +1027,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4272619801513" />
+        <entry key="$PROJECT_DIR$" value="4272616927551" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1233,12 +1042,76 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.1.0/gradle-1.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.1.0/gradle-1.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/1.1.0/gradle-core-1.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/1.1.0/gradle-core-1.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/24.1.0/lint-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/24.1.0/lint-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.1/proguard-gradle-5.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.1/proguard-gradle-5.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.1.0/builder-1.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.1.0/builder-1.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4/ecj-4.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4/ecj-4.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/24.1.0/lint-checks-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/24.1.0/lint-checks-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.1/proguard-base-5.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.1/proguard-base-5.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/24.1.0/sdk-common-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/24.1.0/sdk-common-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.1.0/builder-model-1.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.1.0/builder-model-1.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/24.1.0/manifest-merger-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/24.1.0/manifest-merger-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/1.1.0/builder-test-api-1.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/1.1.0/builder-test-api-1.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/24.1.0/ddmlib-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/24.1.0/ddmlib-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/24.1.0/sdklib-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/24.1.0/sdklib-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/24.1.0/common-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/24.1.0/common-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/24.1.0/lint-api-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/24.1.0/lint-api-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/24.1.0/annotations-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/24.1.0/annotations-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/24.1.0/dvlib-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/24.1.0/dvlib-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/24.1.0/layoutlib-api-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/24.1.0/layoutlib-api-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
@@ -1250,12 +1123,79 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.1.0/gradle-1.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.1.0/gradle-1.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/1.1.0/gradle-core-1.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/1.1.0/gradle-core-1.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/24.1.0/lint-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/24.1.0/lint-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.1/proguard-gradle-5.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.1/proguard-gradle-5.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.1.0/builder-1.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.1.0/builder-1.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4/ecj-4.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4/ecj-4.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/24.1.0/lint-checks-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/24.1.0/lint-checks-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.1/proguard-base-5.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.1/proguard-base-5.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/24.1.0/sdk-common-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/24.1.0/sdk-common-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.1.0/builder-model-1.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.1.0/builder-model-1.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/24.1.0/manifest-merger-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/24.1.0/manifest-merger-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/1.1.0/builder-test-api-1.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/1.1.0/builder-test-api-1.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/24.1.0/ddmlib-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/24.1.0/ddmlib-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/24.1.0/sdklib-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/24.1.0/sdklib-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/24.1.0/common-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/24.1.0/common-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/24.1.0/lint-api-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/24.1.0/lint-api-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/24.1.0/annotations-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/24.1.0/annotations-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/24.1.0/dvlib-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/24.1.0/dvlib-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/24.1.0/layoutlib-api-24.1.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/24.1.0/layoutlib-api-24.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar" />
+                            <option value="$MODULE_DIR$/libs/Parse-1.8.2.jar" />
+                            <option value="$MODULE_DIR$/libs/ParseCrashReporting-1.8.2.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/app" />
@@ -1339,17 +1279,14 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/parse/starter/ParseStarterProjectActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/parse/starter/EcryptedFileIO.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/parse/starter/HomePageActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/parse/starter/EncryptedFileIO.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/parse/starter/Patient.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_message.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/parse/starter/EncryptedFileIO.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1377,7 +1314,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1385,10 +1321,6 @@
               <option name="myItemId" value="ParseStarterProject123" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1398,46 +1330,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ParseStarterProject123" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ParseStarterProject123" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1458,22 +1350,9 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ParseStarterProject123" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1506,9 +1385,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ParseStarterProject123" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ParseStarterProject123" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ParseStarterProject123" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ParseStarterProject123" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1525,17 +1456,156 @@
     <property name="options.searchVisible" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/bin/git.exe" />
     <property name="FullScreen" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="083057e60c8cf59e" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_21_x86" />
   </component>
-  <component name="RecentsManager">
-    <key name="android.template.packageName">
-      <recent name="com.parse.starter" />
-    </key>
-    <key name="android.template.parentActivityClass">
-      <recent name="com.parse.starter.HomePageActivity" />
-      <recent name="" />
-    </key>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/classes/debug/com/parse/starter/HomePageActivity$1.class</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/classes/debug/com/parse/starter/HomePageActivity.class</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/classes/debug/com/parse/starter/ParseStarterProjectActivity.class</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/incremental/mergeAssets/debug/merger.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/debug/merger.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/res/debug/layout/activity_home_page.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/res/debug/layout/login_page.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/res/debug/layout/main.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/res/debug/menu/menu_home_page.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/res/debug/values/values.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/resources/resources-debug-androidTest.ap_</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/src/main/AndroidManifest.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/src/main/java/com/parse/starter/HomePageActivity.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/src/main/res/layout/activity_home_page.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/src/main/res/values/strings.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/intermediates/model_data.bin</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/local.properties</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/src/main/java/com/parse/starter/Message.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/src/main/java/com/parse/starter/MessageActivity.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/src/main/res/layout/activity_message.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/src/main/res/menu/menu_message.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/ParseStarterProject123.iml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/app.iml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-180e5d768a22d0dbc04670ba6e7dfb05a5db66c3.jar</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
@@ -1709,6 +1779,11 @@
       <created>1424205352521</created>
       <updated>1424205352521</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created patient object, started building encryption object">
+      <created>1424228162189</created>
+      <updated>1424228162189</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1732,36 +1807,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.36886993" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287234" sideWeight="0.63113004" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.63113004" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17537314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1781,6 +1856,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Created patient object, started building encryption object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created patient object, started building encryption object" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1796,8 +1873,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/EncryptedFileIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="612">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1037">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1309">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/HomePageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2125">
+          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/EncryptedFileIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1037">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1853,19 +1954,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login_page.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/ParseStarterProjectActivity.java">
@@ -1987,32 +2086,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login_page.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/ParseApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
           <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/ParseStarterProjectActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2025,43 +2115,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/EncryptedFileIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/HomePageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1114" max-vertical-offset="1717">
-          <caret line="101" column="20" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="1853">
+          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/MessageActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/ParseStarterProjectActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="850">
+          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_message.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/EncryptedFileIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2813067" vertical-offset="202" max-vertical-offset="1258">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
           <folding />
         </state>
       </provider>
