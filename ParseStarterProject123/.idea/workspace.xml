@@ -18,14 +18,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa4ea9dc-883f-4c2a-9ec4-0a3adf10a8be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/parse/starter/ExpandableListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_group.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/parse/starter/ExpandableListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/parse/starter/ExpandableListAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/parse/starter/MessageActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/parse/starter/MessageActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/parse/starter/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/parse/starter/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_message.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_message.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_group.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_group.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ParseStarterProject.iws" />
@@ -75,8 +74,8 @@
       <file leaf-file-name="MessageActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/MessageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51986754" vertical-offset="927" max-vertical-offset="2023">
-              <caret line="73" column="77" selection-start-line="73" selection-start-column="77" selection-end-line="73" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.46357617" vertical-offset="417" max-vertical-offset="2023">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1395#3407#0" expanded="true" />
@@ -147,6 +146,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="aostia" />
+      </list>
+    </option>
     <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -1672,7 +1676,11 @@
       <created>1424228162189</created>
       <updated>1424228162189</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge branch 'master' of https://github.com/ShawnHesch/SAAPI&#10;&#10;Conflicts:&#10;&#9;ParseStarterProject123/.idea/workspace.xml&#10;&#9;ParseStarterProject123/ParseStarterProject123.iml&#10;&#9;ParseStarterProject123/app/app.iml&#10;&#9;ParseStarterProject123/build/intermediates/model_data.bin&#10;">
+      <created>1425409210192</created>
+      <updated>1425409210192</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1697,10 +1705,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32765958" sideWeight="0.5751599" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32765958" sideWeight="0.5751599" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1746,7 +1754,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Created patient object, started building encryption object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created patient object, started building encryption object" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/ShawnHesch/SAAPI&#10;&#10;Conflicts:&#10;&#9;ParseStarterProject123/.idea/workspace.xml&#10;&#9;ParseStarterProject123/ParseStarterProject123.iml&#10;&#9;ParseStarterProject123/app/app.iml&#10;&#9;ParseStarterProject123/build/intermediates/model_data.bin&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/ShawnHesch/SAAPI&#10;&#10;Conflicts:&#10;&#9;ParseStarterProject123/.idea/workspace.xml&#10;&#9;ParseStarterProject123/ParseStarterProject123.iml&#10;&#9;ParseStarterProject123/app/app.iml&#10;&#9;ParseStarterProject123/build/intermediates/model_data.bin&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2163,8 +2172,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parse/starter/MessageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51986754" vertical-offset="927" max-vertical-offset="2023">
-          <caret line="73" column="77" selection-start-line="73" selection-start-column="77" selection-end-line="73" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.46357617" vertical-offset="417" max-vertical-offset="2023">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1395#3407#0" expanded="true" />
