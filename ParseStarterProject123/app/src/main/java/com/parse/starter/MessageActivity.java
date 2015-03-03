@@ -87,7 +87,7 @@ public class MessageActivity extends Activity {
                         listDataHeader.add(subject);
                         List<String> messageChild = new ArrayList<String>();
                         messageChild.add(message);
-                        listDataChild.put(listDataHeader.get(0), messageChild);
+                        listDataChild.put(listDataHeader.get(i), messageChild);
 
                         //arrayList.add(message);
                         //adapter.notifyDataSetChanged();

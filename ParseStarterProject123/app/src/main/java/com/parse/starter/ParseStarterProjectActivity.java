@@ -118,7 +118,10 @@ public class ParseStarterProjectActivity extends Activity {
                     myIntent.putExtra("patient", encryptor.getPatient().toString());
 
                     startActivity(myIntent);
+                }else{
+                    Toast.makeText(getApplicationContext(), "Invalid Password", Toast.LENGTH_SHORT).show();
                 }
+
             }
         });
         builder.setNegativeButton("Not Me!", new DialogInterface.OnClickListener() {
