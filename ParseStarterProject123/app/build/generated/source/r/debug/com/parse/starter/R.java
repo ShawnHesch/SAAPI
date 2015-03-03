@@ -23,16 +23,17 @@ public final class R {
         public static final int male_icon=0x7f020002;
     }
     public static final class id {
-        public static final int action_settings=0x7f07000a;
-        public static final int age_textView=0x7f070003;
-        public static final int hello_textView=0x7f070002;
-        public static final int imageView=0x7f070009;
-        public static final int listView=0x7f070005;
-        public static final int login_button=0x7f070006;
+        public static final int action_settings=0x7f07000b;
+        public static final int age_textView=0x7f070005;
+        public static final int hello_textView=0x7f070003;
+        public static final int imageView=0x7f07000a;
+        public static final int listView=0x7f070006;
+        public static final int login_button=0x7f070007;
         public static final int messages_button=0x7f070000;
-        public static final int password=0x7f070007;
+        public static final int password=0x7f070009;
         public static final int picture_imageView=0x7f070004;
         public static final int prescription_button=0x7f070001;
+        public static final int relativeLayout=0x7f070002;
         public static final int username=0x7f070008;
     }
     public static final class layout {
