@@ -13,5 +13,8 @@
     <string name="app_name">SAAPI</string>
     <string name="hello">Hello World, ParseStarterProjectActivity!</string>
     <string name="hello_world">Hello world!</string>
+    <string name="messageButtonText">Messages</string>
+    <string name="prescriptionButtonText">Prescriptions</string>
     <string name="title_activity_home_page">Home Page</string>
+    <string name="title_activity_message">Messages</string>
 </resources>

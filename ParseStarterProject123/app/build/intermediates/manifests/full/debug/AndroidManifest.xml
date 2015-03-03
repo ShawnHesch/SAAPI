@@ -41,6 +41,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.parse.starter.ParseStarterProjectActivity" />
         </activity>
+        <activity
+            android:name="com.parse.starter.MessageActivity"
+            android:label="@string/title_activity_message"
+            android:parentActivityName="com.parse.starter.HomePageActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.parse.starter.HomePageActivity" />
+        </activity>
     </application>
 
 </manifest>

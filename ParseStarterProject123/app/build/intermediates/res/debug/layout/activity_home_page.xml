@@ -11,17 +11,18 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Messages"
+        android:text="@string/messageButtonText"
         android:id="@+id/messages_button"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_margin="@dimen/border1"
-        android:padding="@dimen/border1" />
+        android:padding="@dimen/border1"
+        android:onClick="openMessages"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Prescriptions"
+        android:text="@string/prescriptionButtonText"
         android:id="@+id/prescription_button"
         android:layout_above="@+id/messages_button"
         android:layout_centerHorizontal="true"
