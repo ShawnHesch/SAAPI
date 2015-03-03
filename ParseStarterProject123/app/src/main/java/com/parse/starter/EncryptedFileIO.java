@@ -189,7 +189,7 @@ public class EncryptedFileIO {
             String[] parts = plain.split("\n");
             filein.close();
 
-            if(parts[4].equals(password)){
+            if(parts[5].equals(password)){
                 return true;
             }
         }catch(Exception e){

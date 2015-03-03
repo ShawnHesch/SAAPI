@@ -17,6 +17,7 @@ public class Patient {//Patient Object
     private String gender;
     private Date birth;
     private int age;
+    private String username;
 
     public String getName() {
         return name;
@@ -42,6 +43,9 @@ public class Patient {//Patient Object
         this.birth = birth;
         this.age = calcAge(birth);
     }
+    public String getUserName() {
+        return username;
+    }
 
     public int getAge() {
         return age;
@@ -56,20 +60,23 @@ public class Patient {//Patient Object
         gender = "";
         birth = new Date();
         age = 0;
+        username = "";
     }
 
-    public Patient(String name, String gender, Date birth, int age){
+    public Patient(String name, String gender, Date birth, int age, String username){
         this.name = name;
         this.gender = gender;
         this.birth = birth;
         this.age = age;
+        this.username = username;
     }
 
-    public Patient(String name, String gender, Date birth){
+    public Patient(String name, String gender, Date birth, String username){
         this.name = name;
         this.gender = gender;
         this.birth = birth;
         this.age = calcAge(birth);
+        this.username = username;
     }
 
     public Patient(String strpatient){
@@ -81,6 +88,7 @@ public class Patient {//Patient Object
             this.birth = df.parse(parts[2]);
         }catch(Exception e){}
         this.age = Integer.parseInt(parts[3]);
+        this.username = parts[4];
     }
 
     public Patient(Patient p){
@@ -88,11 +96,12 @@ public class Patient {//Patient Object
         this.gender = p.gender;
         this.birth = p.birth;
         this.age = p.age;
+        this.username = p.username;
     }
 
     public String toString(){
         DateFormat df = new SimpleDateFormat("MMMM d, yyyy", Locale.ENGLISH);
-        return name + "\n" + gender + "\n" + df.format(birth) + "\n" + age+ "\n" ;
+        return name + "\n" + gender + "\n" + df.format(birth) + "\n" + age + "\n" + username + "\n" ;
     }
 
     public int calcAge(Date born) {

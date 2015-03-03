@@ -29,7 +29,7 @@ import java.util.HashMap;
 
 public class MessageActivity extends Activity {
 
-    private String username;
+    private Patient pat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +37,7 @@ public class MessageActivity extends Activity {
         setContentView(R.layout.activity_message);
 
         Intent myIntent = getIntent(); // gets the previously created intent
-        this.username = myIntent.getStringExtra("username");
+        this.pat = new Patient(myIntent.getStringExtra("patient"));
 
         showMessages();
 
@@ -45,9 +45,25 @@ public class MessageActivity extends Activity {
 
     public void showMessages() {
 
+
+//        ParseQuery<ParseObject> query = ParseQuery.getQuery("Subjects");
+//        query.whereEqualTo("username", username);
+//
+//        try {
+//            ParseObject patty = query.getFirst();
+//            pat = new Patient(patty.getString("firstName") + " " + patty.getString("lastName"), patty.getString("gender"), patty.getDate("DOB"), patty.getString("username"));
+//        }catch(Exception e){
+//            Log.d("StarterActivity", "Failed to get ParseObject from database");
+//        }
+
+
+
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Message");
-        query.whereEqualTo("userID", this.username);
+        query.whereEqualTo("userID", pat.getUserName());
         //Toast.makeText(getApplicationContext(), "Hello " + username, Toast.LENGTH_SHORT).show();
+//        try{
+//
+//        }
         query.findInBackground(new FindCallback<ParseObject>() {
             public void done(List<ParseObject> messageList, ParseException e) {
                 if (e == null) {

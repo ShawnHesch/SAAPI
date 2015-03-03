@@ -73,7 +73,7 @@ public class ParseStarterProjectActivity extends Activity {
 
         try {
             ParseObject patty = query.getFirst();
-            pat = new Patient(patty.getString("firstName") + " " + patty.getString("lastName"), patty.getString("gender"), patty.getDate("DOB"));
+            pat = new Patient(patty.getString("firstName") + " " + patty.getString("lastName"), patty.getString("gender"), patty.getDate("DOB"), patty.getString("username"));
         }catch(Exception e){
             Log.d("StarterActivity", "Failed to get ParseObject from database");
         }
