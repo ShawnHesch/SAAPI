@@ -9,5 +9,8 @@
     <string name="title_activity_message">Messages</string>
     <string name="messageButtonText">Messages</string>
     <string name="prescriptionButtonText">Prescriptions</string>
+    <string name="title_activity_prescription">PrescriptionActivity</string>
+    <string name="title_activity_prescriptions">Prescriptions</string>
+    <string name="title_activity_calc_dosage">Recommended Dosage</string>
 
 </resources>

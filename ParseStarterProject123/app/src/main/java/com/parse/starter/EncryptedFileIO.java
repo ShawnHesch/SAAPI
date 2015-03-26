@@ -177,19 +177,19 @@ public class EncryptedFileIO {
             kspec = new PBEKeySpec(password.toCharArray(), salt, 10000, 128);
 
             filein = context.openFileInput(filename1);
-            byte[] cipher = new byte[filein.available()];
+            byte[] cipher = new byte[filein.available()]; 
 
             filein.read(cipher);
             byte[] decipher = decryptString(cipher);
             String plain = new String(decipher);
 
-            plain = plain.substring(15);
+            plain = plain.substring(16);
 
             patient = new Patient(plain);
             String[] parts = plain.split("\n");
             filein.close();
 
-            if(parts[5].equals(password)){
+            if(parts[parts.length-1].equals(password)){
                 return true;
             }
         }catch(Exception e){

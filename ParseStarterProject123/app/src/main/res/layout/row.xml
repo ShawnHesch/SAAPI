@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:weightSum="100"
+    android:gravity="center_horizontal"
+    android:id="@+id/row">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:padding="3dp"
+        android:layout_weight="35"
+        android:id="@+id/name" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:textSize="16dp"
+        android:padding="3dp"
+        android:layout_weight="20"
+        android:id="@+id/dosage" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:textSize="16dp"
+        android:padding="3dp"
+        android:layout_weight="25"
+        android:id="@+id/frequency" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:textSize="16dp"
+        android:padding="3dp"
+        android:layout_weight="20"
+        android:id="@+id/method" />
+</TableRow>
