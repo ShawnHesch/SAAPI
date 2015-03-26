@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -56,7 +57,7 @@ public class MessageActivity extends Activity {
         query.findInBackground(new FindCallback<ParseObject>() {
             public void done(List<ParseObject> messageList, ParseException e) {
                 if (e == null) {
-                    //Log.d("message", "Retrieved " + messageList.size() + " scores");
+                    ArrayList<Boolean> saved = new ArrayList<Boolean>();
 
                     ExpandableListView expListView = (ExpandableListView) findViewById(R.id.messageListView);
 
@@ -75,6 +76,7 @@ public class MessageActivity extends Activity {
                         ParseObject messageObj = messageList.get(i);
                         String subject = messageObj.getString("subject");
                         String message = messageObj.getString("message");
+                        saved.add(i, messageObj.getBoolean("read"));
 
                         listDataHeader.add(subject);
                         List<String> messageChild = new ArrayList<String>();
@@ -83,8 +85,11 @@ public class MessageActivity extends Activity {
                     }
 
                     ExpandableListAdapter listAdapter = new ExpandableListAdapter(MessageActivity.this, listDataHeader, listDataChild);
+                    listAdapter.saved = saved;
                     expListView.setAdapter(listAdapter);
+
                     giveChildOnClickListener(expListView, listAdapter);
+                    giveGroupOnClickListener(expListView, listAdapter);
 
                 } else {
                     Log.d("message", "Error: " + e.getMessage());
@@ -109,7 +114,6 @@ public class MessageActivity extends Activity {
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .setPositiveButton("Delete", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        //Yes button clicked, do something
                         Toast.makeText(MessageActivity.this, subject + " Deleted.",
                                 Toast.LENGTH_SHORT).show();
 
@@ -142,16 +146,41 @@ public class MessageActivity extends Activity {
             public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
 
                 Object group =  adapter.getGroup(groupPosition);
-
                 final String text = adapter.getChild(groupPosition, childPosition).toString();
-                Context context = getApplicationContext();
-                int duration = Toast.LENGTH_SHORT;
-
-                Toast toast = Toast.makeText(context, text, duration);
-                //toast.show();
-
                 createAndShowAlertDialog(adapter.getGroup(groupPosition).toString(), text, groupPosition, childPosition, adapter);
+                return false;
+            }
+        });
+    }
 
+    private void giveGroupOnClickListener(ExpandableListView list, final ExpandableListAdapter adapter) {
+
+        list.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
+            @Override
+            public boolean onGroupClick(ExpandableListView parent, View v, int groupPosition, long id) {
+
+                parent.smoothScrollToPosition(groupPosition);
+
+                if (adapter.saved.get(groupPosition) == Boolean.FALSE) {
+
+                    adapter.saved.set(groupPosition, Boolean.TRUE);
+
+                    ParseQuery<ParseObject> query = ParseQuery.getQuery("Message");
+                    query.whereEqualTo("userID", pat.getUserName().toString());
+                    query.whereEqualTo("subject", adapter.getGroup(groupPosition).toString());
+                    query.whereEqualTo("message", adapter.getChild(groupPosition, 0).toString());
+                    query.findInBackground(new FindCallback<ParseObject>() {
+                        public void done(List<ParseObject> messageList, ParseException e) {
+                            if (e == null) {
+                                messageList.get(0).put("read", true);
+                                messageList.get(0).saveInBackground();
+                            } else {
+                                Log.d("message", "Error: " + e.getMessage());
+                            }
+                        }
+                    });
+
+                }
                 return false;
             }
         });
