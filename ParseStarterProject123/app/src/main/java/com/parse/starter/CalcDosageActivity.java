@@ -79,13 +79,140 @@ public class CalcDosageActivity extends Activity {
                 rsNumbers.add(rsNum);
             }
             //got all the research for specified patient and subsenquent rsnumbers
-
-            for(int i=0; i<rsNumbers.size(); i++){
-                if(rsNumbers.get(i).getString("gene") == "ABCG2"){
-
+            String x9a34 = "", x9b421 = "", x8a388 = "", x8b521 = "";
+            for(int i=0; i<rsNumbers.size(); i++) {
+                for (int j = 0; j < research.size(); j++) {
+                    if (rsNumbers.get(i).getString("gene") == "ABCG2") {
+                        if (rsNumbers.get(i).getString("rsNumber") == research.get(j).getString("rsNumber")
+                                && research.get(j).getString("rsNumber") == "rs2231137") {
+                            x9a34 = research.get(j).getString("genotype");
+                        } else if (rsNumbers.get(i).getString("rsNumber") == research.get(j).getString("rsNumber")) {
+                            x9b421 = research.get(j).getString("genotype");
+                        }
+                    } else if (rsNumbers.get(i).getString("gene") == "SLCO1B1") {
+                        if (rsNumbers.get(i).getString("rsNumber") == research.get(j).getString("rsNumber")
+                                && research.get(j).getString("rsNumber") == "rs2306283") {
+                            x8a388 = research.get(j).getString("genotype");
+                        } else if (rsNumbers.get(i).getString("rsNumber") == research.get(j).getString("rsNumber")) {
+                            x8b521 = research.get(j).getString("genotype");
+                        }
+                    }
+                }
+            }
+            int dose = 0;
+            //now for long set of ifs
+            if(x8b521 == "T/T"){
+                if(x8a388 == "A/A"){
+                    if(pat.getAge() <= 45){
+                        dose = 80;
+                    }else{
+                        dose = 40;
+                    }
+                }else if(x8a388 == "A/G"){
+                    if(pat.getAge() <= 60){
+                        dose = 80;
+                    }else{
+                        dose = 40;
+                    }
+                }else if(x8a388 == "G/G"){
+                    dose = 80;
+                }
+                if(x9b421 == "C/C"){
+                    if(pat.getAge() <= 70){
+                        dose = 40;
+                    }else{
+                        dose = 20;
+                    }
+                }else if(x9b421 == "C/A"){
+                    if(pat.getAge() <= 35){
+                        dose = 40;
+                    }else{
+                        dose = 20;
+                    }
+                }else if(x9b421 == "A/A"){
+                    dose = 20;
+                }
+            }else if(x8b521 == "T/C"){
+                if(x8a388 == "A/A"){
+                    if(pat.getAge() <= 70){
+                        dose = 80;
+                    }else{
+                        dose = 40;
+                    }
+                }else if(x8a388 == "A/G"){
+                    if(pat.getAge() <= 40){
+                        dose = 80;
+                    }else{
+                        dose = 40;
+                    }
+                }else if(x8a388 == "G/G"){
+                    if(pat.getAge() <= 55){
+                        dose = 80;
+                    }else{
+                        dose = 40;
+                    }
+                }
+                if(x9b421 == "C/C"){
+                    if(pat.getAge() <= 45){
+                        dose = 40;
+                    }else{
+                        dose = 20;
+                    }
+                }else if(x9b421 == "C/A"){
+                    dose = 20;
+                }else if(x9b421 == "A/A"){
+                    if(pat.getAge() <= 55){
+                        dose = 20;
+                    }else{
+                        dose = 10;
+                    }
+                }
+            }else if(x8b521 == "C/C"){
+                if(x8a388 == "A/A"){
+                    if(pat.getAge() <= 55){
+                        dose = 40;
+                    }else{
+                        dose = 20;
+                    }
+                }else if(x8a388 == "A/G"){
+                    if(pat.getAge() <= 70){
+                        dose = 40;
+                    }else{
+                        dose = 20;
+                    }
+                }else if(x8a388 == "G/G"){
+                    if(pat.getAge() <= 40){
+                        dose = 80;
+                    }else{
+                        dose = 40;
+                    }
+                }
+                if(x9b421 == "C/C"){
+                    dose = 20;
+                }else if(x9b421 == "C/A"){
+                    if(pat.getAge() <= 60){
+                        dose = 20;
+                    }else{
+                        dose = 10;
+                    }
+                }else if(x9b421 == "A/A"){
+                    if(pat.getAge() <= 65){
+                        dose = 10;
+                    }else{
+                        dose = 5;
+                    }
                 }
             }
 
+
+            TextView tv = (TextView)findViewById(R.id.dosagevalue);
+            String text = "";
+            if(med){
+                text = "5 - " + dose + " mg";
+            }else {
+                text = "10 - " + dose + " mg";
+            }
+            tv.setText(text);
 
         }catch(Exception e){
             Log.d("PrescriptionsActivity", "Failed to get ParseObject from database");
