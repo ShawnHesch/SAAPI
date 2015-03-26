@@ -112,9 +112,9 @@ public class PrescriptionsActivity extends Activity {
 
     }
 
-    public void openCalcDosage(){
+    public void openCalcDosage(View view){
 
-        Intent myIntent = new Intent(this, PrescriptionsActivity.class);
+        Intent myIntent = new Intent(this, CalcDosageActivity.class);
         myIntent.putExtra("patient", pat.toString());
         myIntent.putExtra("medName", expMed);
         startActivity(myIntent);

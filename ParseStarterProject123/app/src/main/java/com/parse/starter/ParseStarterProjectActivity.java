@@ -87,6 +87,7 @@ public class ParseStarterProjectActivity extends Activity {
     }
 
     public void quickLogin(){
+        //TODO: send name to home screen
         FileInputStream filein;
         String name = "";
         try{
