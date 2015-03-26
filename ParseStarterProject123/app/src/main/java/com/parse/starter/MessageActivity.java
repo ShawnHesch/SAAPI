@@ -86,7 +86,6 @@ public class MessageActivity extends Activity {
                     expListView.setAdapter(listAdapter);
                     giveChildOnClickListener(expListView, listAdapter);
 
-
                 } else {
                     Log.d("message", "Error: " + e.getMessage());
                 }
@@ -102,10 +101,8 @@ public class MessageActivity extends Activity {
         return true;
     }
 
-
-
     //used to delete messages
-    private void createAndShowAlertDialog(final String subject, final String message) {
+    private void createAndShowAlertDialog(final String subject, final String message, final int g, final int c, final ExpandableListAdapter adapter) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder
                 .setMessage("Delete This Message?" +  "\n\n" + subject)
@@ -123,17 +120,15 @@ public class MessageActivity extends Activity {
                         query.findInBackground(new FindCallback<ParseObject>() {
                             public void done(List<ParseObject> messageList, ParseException e) {
                                 if (e == null) {
-                                    //Log.d("message", "Retrieved " + messageList.size() + " scores");
-
-                                    if (messageList.size() == 1)
-                                        messageList.get(0).deleteInBackground();
+                                    messageList.get(0).deleteInBackground();
+                                    showMessages();
+                                    adapter.notifyDataSetChanged();
 
                                 } else {
                                     Log.d("message", "Error: " + e.getMessage());
                                 }
                             }
                         });
-
                     }
                 })
                 .setNegativeButton("Cancel", null)						//Do nothing on no
@@ -148,15 +143,14 @@ public class MessageActivity extends Activity {
 
                 Object group =  adapter.getGroup(groupPosition);
 
-                String text = adapter.getChild(groupPosition, childPosition).toString();
+                final String text = adapter.getChild(groupPosition, childPosition).toString();
                 Context context = getApplicationContext();
                 int duration = Toast.LENGTH_SHORT;
 
                 Toast toast = Toast.makeText(context, text, duration);
                 //toast.show();
 
-                createAndShowAlertDialog(adapter.getGroup(groupPosition).toString(), text);
-                adapter.notify();
+                createAndShowAlertDialog(adapter.getGroup(groupPosition).toString(), text, groupPosition, childPosition, adapter);
 
                 return false;
             }
