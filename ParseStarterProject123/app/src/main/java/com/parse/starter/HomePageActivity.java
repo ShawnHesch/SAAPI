@@ -79,4 +79,12 @@ public class HomePageActivity extends Activity {
         myIntent.putExtra("patient", patient.toString());
         startActivity(myIntent);
     }
+
+    public void openPrescriptions(View view){
+
+        Intent myIntent = new Intent(this, PrescriptionsActivity.class);
+        myIntent.putExtra("patient", patient.toString());
+        startActivity(myIntent);
+
+    }
 }

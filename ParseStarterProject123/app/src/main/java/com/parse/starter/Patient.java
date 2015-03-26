@@ -18,6 +18,15 @@ public class Patient {//Patient Object
     private Date birth;
     private int age;
     private String username;
+    private int ID;
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
 
     public String getName() {
         return name;
@@ -63,20 +72,22 @@ public class Patient {//Patient Object
         username = "";
     }
 
-    public Patient(String name, String gender, Date birth, int age, String username){
+    public Patient(String name, String gender, Date birth, int age, String username, int ID){
         this.name = name;
         this.gender = gender;
         this.birth = birth;
         this.age = age;
         this.username = username;
+        this.ID = ID;
     }
 
-    public Patient(String name, String gender, Date birth, String username){
+    public Patient(String name, String gender, Date birth, String username, int ID){
         this.name = name;
         this.gender = gender;
         this.birth = birth;
         this.age = calcAge(birth);
         this.username = username;
+        this.ID = ID;
     }
 
     public Patient(String strpatient){
@@ -89,6 +100,7 @@ public class Patient {//Patient Object
         }catch(Exception e){}
         this.age = Integer.parseInt(parts[3]);
         this.username = parts[4];
+        this.ID = Integer.parseInt(parts[5]);
     }
 
     public Patient(Patient p){
@@ -97,11 +109,12 @@ public class Patient {//Patient Object
         this.birth = p.birth;
         this.age = p.age;
         this.username = p.username;
+        this.ID = p.ID;
     }
 
     public String toString(){
         DateFormat df = new SimpleDateFormat("MMMM d, yyyy", Locale.ENGLISH);
-        return name + "\n" + gender + "\n" + df.format(birth) + "\n" + age + "\n" + username + "\n" ;
+        return name + "\n" + gender + "\n" + df.format(birth) + "\n" + age + "\n" + username + "\n" + ID + "\n" ;
     }
 
     public int calcAge(Date born) {
