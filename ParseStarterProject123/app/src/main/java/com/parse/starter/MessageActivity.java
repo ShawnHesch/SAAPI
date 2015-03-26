@@ -21,6 +21,8 @@ import com.parse.ParseObject;
 import com.parse.ParseQuery;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 
@@ -45,40 +47,25 @@ public class MessageActivity extends Activity {
 
     public void showMessages() {
 
-
-//        ParseQuery<ParseObject> query = ParseQuery.getQuery("Subjects");
-//        query.whereEqualTo("username", username);
-//
-//        try {
-//            ParseObject patty = query.getFirst();
-//            pat = new Patient(patty.getString("firstName") + " " + patty.getString("lastName"), patty.getString("gender"), patty.getDate("DOB"), patty.getString("username"));
-//        }catch(Exception e){
-//            Log.d("StarterActivity", "Failed to get ParseObject from database");
-//        }
-
-
-
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Message");
         query.whereEqualTo("userID", pat.getUserName());
-        //Toast.makeText(getApplicationContext(), "Hello " + username, Toast.LENGTH_SHORT).show();
-//        try{
-//
-//        }
         query.findInBackground(new FindCallback<ParseObject>() {
             public void done(List<ParseObject> messageList, ParseException e) {
                 if (e == null) {
-                    //Toast.makeText(getApplicationContext(), "Hello " + username, Toast.LENGTH_SHORT).show();
-                    Log.d("message", "Retrieved " + messageList.size() + " scores");
+                    //Log.d("message", "Retrieved " + messageList.size() + " scores");
 
                     ExpandableListView expListView = (ExpandableListView) findViewById(R.id.messageListView);
                     List<String> listDataHeader = new ArrayList<String>();
                     HashMap<String, List<String>> listDataChild = new HashMap<String, List<String>>();
 
-                    /*ListView messageView = (ListView) findViewById(R.id.messageListView);
-                    ArrayList<String> arrayList = new ArrayList<String>();
-                    ArrayAdapter<String> adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_spinner_item, arrayList);
-                    messageView.setAdapter(adapter);*/
+                    //sort by date
+                    Collections.sort(messageList, new Comparator<ParseObject>() {
+                        public int compare(ParseObject o1, ParseObject o2) {
+                            return o2.getCreatedAt().compareTo(o1.getCreatedAt());
+                        }
+                    });
 
+                    //put into screen
                     for (int i = 0; i < messageList.size(); i++) {
                         ParseObject messageObj = messageList.get(i);
                         String subject = messageObj.getString("subject");
@@ -88,9 +75,6 @@ public class MessageActivity extends Activity {
                         List<String> messageChild = new ArrayList<String>();
                         messageChild.add(message);
                         listDataChild.put(listDataHeader.get(i), messageChild);
-
-                        //arrayList.add(message);
-                        //adapter.notifyDataSetChanged();
                     }
 
                     ExpandableListAdapter listAdapter = new ExpandableListAdapter(MessageActivity.this, listDataHeader, listDataChild);
