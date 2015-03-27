@@ -17,12 +17,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.parse.starter" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa4ea9dc-883f-4c2a-9ec4-0a3adf10a8be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/lock2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/lock2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/lock2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/lock2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lock2.png" />
+    <list default="true" id="aa4ea9dc-883f-4c2a-9ec4-0a3adf10a8be" name="Default" comment="UPdated icon22">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ParseStarterProject.iws" />
@@ -1847,7 +1842,11 @@
       <created>1427426347372</created>
       <updated>1427426347372</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="UPdated icon22">
+      <created>1427426844599</created>
+      <updated>1427426844599</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1927,7 +1926,8 @@
     <MESSAGE value="added logout and fixed back stuff" />
     <MESSAGE value="UPdated background stuffs" />
     <MESSAGE value="UPdated icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPdated icon" />
+    <MESSAGE value="UPdated icon22" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPdated icon22" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
