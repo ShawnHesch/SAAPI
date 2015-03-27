@@ -4,7 +4,8 @@
     tools:context="com.parse.starter.PrescriptionsActivity"
     android:paddingLeft="5dp"
     android:paddingRight="5dp"
-    android:background="#ff15143f">
+    android:background="#ff15143f"
+    android:paddingTop="5dp">
 
     <Button
         android:layout_width="wrap_content"
@@ -37,7 +38,8 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:weightSum="100">
+                android:weightSum="100"
+                android:background="#ff15143f">
 
                 <TextView
                     android:layout_width="0dp"

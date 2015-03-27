@@ -65,6 +65,6 @@
             android:id="@+id/imageView"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/ic_launcher" />
+            android:src="@drawable/lock2" />
     </RelativeLayout>
 </RelativeLayout>
