@@ -60,7 +60,6 @@ public class EncryptedFileIO {
         try{
             filein = context.openFileInput(filename1);
             fileExists = true;
-            //TODO: Get info from file, store in patient object
             byte[] cipher = new byte[filein.available()];
 
             filein.read(cipher);
@@ -72,7 +71,6 @@ public class EncryptedFileIO {
             try{
                 fileExists = false;
                 fileout = context.openFileOutput(filename1, context.MODE_PRIVATE);
-                //TODO: Create file and put all relavent data into it
                 patient = new Patient();
                 byte[] contents = encryptString((patient.toString() + password).getBytes());
                 fileout.write(contents);
