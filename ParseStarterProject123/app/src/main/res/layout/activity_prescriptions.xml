@@ -3,7 +3,8 @@
     android:layout_height="match_parent"
     tools:context="com.parse.starter.PrescriptionsActivity"
     android:paddingLeft="5dp"
-    android:paddingRight="5dp">
+    android:paddingRight="5dp"
+    android:background="#ff15143f">
 
     <Button
         android:layout_width="wrap_content"

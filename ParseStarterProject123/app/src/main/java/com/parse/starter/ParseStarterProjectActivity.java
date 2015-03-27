@@ -84,7 +84,6 @@ public class ParseStarterProjectActivity extends Activity {
         }catch(Exception e){
             Log.d("StarterActivity", "Failed to get ParseObject from database");
         }
-        //TODO: Get patient info here and send the object to the next intent, reduce lag in getting info
         boolean blah = encryptor.updateFile(this.getApplicationContext(), pat, password);
 
         Intent myIntent = new Intent(this, HomePageActivity.class);
@@ -96,7 +95,6 @@ public class ParseStarterProjectActivity extends Activity {
     }
 
     public void quickLogin(){
-        //TODO: send name to home screen
         FileInputStream filein;
         name = "";
         try{
