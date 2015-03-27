@@ -33,6 +33,7 @@ public class HomePageActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
+        getActionBar().setDisplayHomeAsUpEnabled(false);
 
         Intent myIntent = getIntent(); // gets the previously created intent
         this.patient = new Patient(myIntent.getStringExtra("patient"));
@@ -51,11 +52,17 @@ public class HomePageActivity extends Activity {
     }
 
 
-    @Override
+        @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_home_page, menu);
         return true;
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+        startActivity(new Intent(this, ParseStarterProjectActivity.class));
     }
 
     @Override
@@ -66,8 +73,9 @@ public class HomePageActivity extends Activity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.action_settings) {//logout here
+            finish();
+            startActivity(new Intent(this, ParseStarterProjectActivity.class));
         }
 
         return super.onOptionsItemSelected(item);
@@ -77,6 +85,8 @@ public class HomePageActivity extends Activity {
 
         Intent myIntent = new Intent(this, MessageActivity.class);
         myIntent.putExtra("patient", patient.toString());
+
+        finish();
         startActivity(myIntent);
     }
 
@@ -84,6 +94,8 @@ public class HomePageActivity extends Activity {
 
         Intent myIntent = new Intent(this, PrescriptionsActivity.class);
         myIntent.putExtra("patient", patient.toString());
+
+        finish();
         startActivity(myIntent);
 
     }

@@ -32,6 +32,7 @@ public class ParseStarterProjectActivity extends Activity {
     Patient pat;
     boolean doneUpdate;
     private String pass;
+    String name;
 
     /**
      * Called when the activity is first created.
@@ -48,6 +49,12 @@ public class ParseStarterProjectActivity extends Activity {
         if(encryptor.doesFileExists()){//local file exits, auto login
             quickLogin();
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+        System.exit(0);
     }
 
     public void attempt_login(View view) {
@@ -82,14 +89,16 @@ public class ParseStarterProjectActivity extends Activity {
 
         Intent myIntent = new Intent(this, HomePageActivity.class);
         myIntent.putExtra("patient", pat.toString());
+        myIntent.putExtra("name", pat.getName());
 
+        finish();
         startActivity(myIntent);
     }
 
     public void quickLogin(){
         //TODO: send name to home screen
         FileInputStream filein;
-        String name = "";
+        name = "";
         try{
             filein = getApplicationContext().openFileInput("userData");
             byte[] nameBytes = new byte[filein.available()];
@@ -104,7 +113,7 @@ public class ParseStarterProjectActivity extends Activity {
         final EditText input = new EditText(this);
         input.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
         builder.setView(input);
-        builder.setCancelable(false);
+        builder.setCancelable(true);
         builder.setInverseBackgroundForced(true);
 
         // Set up the buttons
@@ -115,9 +124,12 @@ public class ParseStarterProjectActivity extends Activity {
                 pass = input.getText().toString();
                 //if loginsuccessful
                 if(encryptor.validatePass(pass)){
+
+                    encryptor.getPatient().setName(name);
                     Intent myIntent = new Intent(getApplicationContext(), HomePageActivity.class);
                     myIntent.putExtra("patient", encryptor.getPatient().toString());
 
+                    finish();
                     startActivity(myIntent);
                 }else{
                     Toast.makeText(getApplicationContext(), "Invalid Password", Toast.LENGTH_SHORT).show();
