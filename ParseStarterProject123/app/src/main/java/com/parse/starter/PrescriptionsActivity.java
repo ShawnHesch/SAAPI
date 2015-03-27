@@ -27,6 +27,7 @@ public class PrescriptionsActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prescriptions);
+        getActionBar().setDisplayHomeAsUpEnabled(false);
 
         Intent myIntent = getIntent(); // gets the previously created intent
         this.pat = new Patient(myIntent.getStringExtra("patient"));
@@ -43,6 +44,15 @@ public class PrescriptionsActivity extends Activity {
     }
 
     @Override
+    public void onBackPressed() {
+        Intent myIntent = new Intent(this, HomePageActivity.class);
+        myIntent.putExtra("patient", pat.toString());
+
+        finish();
+        startActivity(myIntent);
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
@@ -50,8 +60,9 @@ public class PrescriptionsActivity extends Activity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.action_settings) {//logout here
+            finish();
+            startActivity(new Intent(this, ParseStarterProjectActivity.class));
         }
 
         return super.onOptionsItemSelected(item);
@@ -112,12 +123,13 @@ public class PrescriptionsActivity extends Activity {
 
     }
 
-    public void openCalcDosage(){
+    public void openCalcDosage(View view){
 
-        Intent myIntent = new Intent(this, PrescriptionsActivity.class);
+        Intent myIntent = new Intent(this, CalcDosageActivity.class);
         myIntent.putExtra("patient", pat.toString());
         myIntent.putExtra("medName", expMed);
-        startActivity(myIntent);
 
+        finish();
+        startActivity(myIntent);
     }
 }

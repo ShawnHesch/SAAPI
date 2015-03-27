@@ -11,7 +11,7 @@
         android:id="@+id/lblListHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="@dimen/small_padding"
+        android:paddingLeft="@dimen/border1"
         android:textSize="17dp"
         android:textColor="#f9f93d" />
 

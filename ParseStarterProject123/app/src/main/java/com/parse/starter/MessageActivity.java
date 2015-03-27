@@ -42,6 +42,7 @@ public class MessageActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_message);
+        getActionBar().setDisplayHomeAsUpEnabled(false);
 
         Intent myIntent = getIntent(); // gets the previously created intent
         this.pat = new Patient(myIntent.getStringExtra("patient"));
@@ -187,6 +188,15 @@ public class MessageActivity extends Activity {
     }
 
     @Override
+    public void onBackPressed() {
+        Intent myIntent = new Intent(this, HomePageActivity.class);
+        myIntent.putExtra("patient", pat.toString());
+
+        finish();
+        startActivity(myIntent);
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
@@ -194,8 +204,9 @@ public class MessageActivity extends Activity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.action_settings) {//logout here
+            finish();
+            startActivity(new Intent(this, ParseStarterProjectActivity.class));
         }
 
         return super.onOptionsItemSelected(item);
