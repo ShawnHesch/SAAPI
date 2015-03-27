@@ -1,0 +1,14 @@
+{
+  "global": {
+    "parseVersion": "1.4.0"
+  },
+  "applications": {
+    "SAAPI": {
+      "applicationId": "uYXMaPI9zP1teJ1xeZ6WkXiPmkgW4qg5WCKrfzH1",
+      "masterKey": "0R48CYg3GE4yLM9xx5mOSxdbL2Ig2aaFJVosHZg7"
+    },
+    "_default": {
+      "link": "SAAPI"
+    }
+  }
+}
