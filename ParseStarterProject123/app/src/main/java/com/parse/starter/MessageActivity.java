@@ -175,6 +175,8 @@ public class MessageActivity extends Activity {
                             if (e == null) {
                                 messageList.get(0).put("read", true);
                                 messageList.get(0).saveInBackground();
+                                //showMessages();
+                                adapter.notifyDataSetChanged();
                             } else {
                                 Log.d("message", "Error: " + e.getMessage());
                             }
