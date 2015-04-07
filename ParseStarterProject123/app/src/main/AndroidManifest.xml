@@ -41,7 +41,7 @@
         android:icon="@drawable/lock2"
         android:label="@string/app_name" >
         <activity
-            android:name=".ParseStarterProjectActivity"
+            android:name=".LoginActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,10 +52,10 @@
         <activity
             android:name=".HomePageActivity"
             android:label="@string/title_activity_home_page"
-            android:parentActivityName=".ParseStarterProjectActivity" >
+            android:parentActivityName=".LoginActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.parse.starter.ParseStarterProjectActivity" />
+                android:value=".LoginActivity" />
         </activity>
         <activity
             android:name=".MessageActivity"

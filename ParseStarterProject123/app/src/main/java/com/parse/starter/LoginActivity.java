@@ -26,7 +26,7 @@ import java.util.Date;
 
 import static com.parse.starter.R.id;
 
-public class ParseStarterProjectActivity extends Activity {
+public class LoginActivity extends Activity {
 
     EncryptedFileIO encryptor;
     Patient pat;

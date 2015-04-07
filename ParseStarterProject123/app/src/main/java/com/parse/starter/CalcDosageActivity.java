@@ -69,7 +69,7 @@ public class CalcDosageActivity extends Activity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {//logout here
             finish();
-            startActivity(new Intent(this, ParseStarterProjectActivity.class));
+            startActivity(new Intent(this, LoginActivity.class));
         }
 
         return super.onOptionsItemSelected(item);

@@ -2,25 +2,18 @@ package com.parse.starter;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
-import android.widget.ImageView;
-import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.parse.FindCallback;
-import com.parse.GetCallback;
 import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
@@ -28,7 +21,6 @@ import com.parse.ParseQuery;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Date;
 import java.util.List;
 
 import java.util.HashMap;
@@ -208,7 +200,7 @@ public class MessageActivity extends Activity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {//logout here
             finish();
-            startActivity(new Intent(this, ParseStarterProjectActivity.class));
+            startActivity(new Intent(this, LoginActivity.class));
         }
 
         return super.onOptionsItemSelected(item);

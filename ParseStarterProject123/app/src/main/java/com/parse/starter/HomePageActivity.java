@@ -2,28 +2,12 @@ package com.parse.starter;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import com.parse.FindCallback;
-import com.parse.GetCallback;
-import com.parse.ParseException;
-import com.parse.ParseObject;
-import com.parse.ParseQuery;
-
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
-
-import javax.crypto.EncryptedPrivateKeyInfo;
 
 
 public class HomePageActivity extends Activity {
@@ -62,7 +46,7 @@ public class HomePageActivity extends Activity {
     @Override
     public void onBackPressed() {
         finish();
-        startActivity(new Intent(this, ParseStarterProjectActivity.class));
+        startActivity(new Intent(this, LoginActivity.class));
     }
 
     @Override
@@ -75,7 +59,7 @@ public class HomePageActivity extends Activity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {//logout here
             finish();
-            startActivity(new Intent(this, ParseStarterProjectActivity.class));
+            startActivity(new Intent(this, LoginActivity.class));
         }
 
         return super.onOptionsItemSelected(item);
